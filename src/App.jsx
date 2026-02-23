@@ -59,7 +59,7 @@ function Example() {
       ).then((res) => res.json()),
   });
 
-  if (isPending) return "Loading...";
+  if (isPending) return "xLoading...";
 
   if (error) return `An error has occurred: ${error}`;
 
